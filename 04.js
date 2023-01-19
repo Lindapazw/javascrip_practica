@@ -18,5 +18,6 @@ console.log(myCar.model)
 
 
 // destructuring
-const { imagen } = myCar
-console.log(imagen) 
+const { model, make } = myCar
+console.log(model) 
+console.log(make) 
