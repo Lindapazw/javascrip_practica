@@ -7,12 +7,12 @@ const myCar = {
 };
 
 const cliente = {
-    nombre:"Linda",
+    make:"Linda",
     premiun: "True"
 };
 
 const { make, model, year } = myCar
-const {nombre, premiun} = cliente
+const { make: nombre , premiun} = cliente
 
 console.log(make,model,year)
 console.log( nombre, premiun)
