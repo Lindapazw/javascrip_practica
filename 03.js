@@ -31,3 +31,13 @@ let producto = "Monitos de 20 pulgadas"
 
 console.log(typeof alumno)
 console.log(typeof producto)
+
+// Symbol 
+
+const primerSymbol = Symbol(30)
+const segundoSymbol = Symbol(30)
+
+console.log( primerSymbol === segundoSymbol)
+
+console.log(primerSymbol.valueOf()) 
+console.log(segundoSymbol.valueOf()) 
