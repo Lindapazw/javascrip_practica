@@ -16,3 +16,9 @@ myCar.imagen = "imagen.jpg"
 delete myCar.model
 
 console.log(myCar)
+
+
+// object freeze y seal 
+
+Object.freeze(myCar) // no te deja modificar 
+Object.seal(myCar) // te deja modificar las existentes, sin añadir o eliminar 
