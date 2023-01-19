@@ -11,13 +11,15 @@ const tecnologias = ["html", "css", "java"]
 
 // eliminar elementos del array
 
-tecnologias.pop() // eliminar del final 
-tecnologias.shift() // eliminar del inicio
-tecnologias.splice(2) // elimina todo a partir del 2
-tecnologias.splice(2,1) // elimina 1 a partir del lugar 2 
+// tecnologias.pop() // eliminar del final 
+// tecnologias.shift() // eliminar del inicio
+// tecnologias.splice(2) // elimina todo a partir del 2
+// tecnologias.splice(2,1) // elimina 1 a partir del lugar 2 
 
-
+const nuevoArreglo = tecnologias.filter( function(tech) {
+    return tech !== "html"
+})
 
 // reemplazar elementos del array
 
-console.table(tecnologias)
+console.table(nuevoArreglo)
