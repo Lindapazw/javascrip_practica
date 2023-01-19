@@ -41,3 +41,7 @@ console.log( primerSymbol === segundoSymbol)
 
 console.log(primerSymbol.valueOf()) 
 console.log(segundoSymbol.valueOf()) 
+
+// Null 
+const descuentos = null 
+
