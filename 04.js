@@ -16,3 +16,7 @@ console.table(myCar)
 
 console.log(myCar.model)
 
+
+// destructuring
+const { imagen } = myCar
+console.log(imagen) 
