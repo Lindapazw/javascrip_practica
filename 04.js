@@ -21,3 +21,14 @@ console.log(myCar.model)
 const { model, make } = myCar
 console.log(model) 
 console.log(make) 
+
+// object literal enhacement 
+const autenticado = true
+const usuario = "Juan"
+
+const nuevoObjeto = {
+    autenticado,
+    usuario
+}
+
+console.log(nuevoObjeto)
