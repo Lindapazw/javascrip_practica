@@ -2,10 +2,14 @@
 
 const tecnologias = ["html", "css", "java"]
 
-const nuevoArreglo = tecnologias.filter( function(tech) {
-    return tech === "html"
+// reemplazar elementos del array
+const nuevoArreglo = tecnologias.map(function(tech){
+    if(tech == "html") {
+        return "nueva tecnologia"
+    } else {
+        return tech
+    }
 })
 
-// reemplazar elementos del array
-
+console.log(tecnologias)
 console.table(nuevoArreglo)
