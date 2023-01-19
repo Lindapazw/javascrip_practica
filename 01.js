@@ -12,3 +12,4 @@ console.log(cliente)
 
 let precioDescuento = 220 
 console.log(precioDescuento)
+
