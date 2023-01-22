@@ -1,8 +1,10 @@
-// funciones con parámetros y argumentos
+// funciones que retornan valores
 
-function sumar(numero, numero2 = 0){
-    console.log(numero + numero2)
+function sumar(numero = 0, numero2 = 0){
+    return [numero + numero2, "hola mundo"]
 }
 
-sumar(10,20) // si ya tiene un numero se sobreescribe el 0 
-sumar(100)
+const [resultado, holaMundo] = sumar(10,20) 
+
+console.log(resultado)
+console.log(holaMundo)
