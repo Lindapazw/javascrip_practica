@@ -9,4 +9,9 @@ nuevoArray = tecnologias.filter( tech => tech !== "react")
 // consultamos si un elemento existe en el array 
 const resultado = tecnologias.includes("react")
 
+// si un elemento del array es mayor a 15
+const resultado2 = numero.some(numero => numero > 15 )
+
+
 console.log(resultado)
+console.log(resultado2)
