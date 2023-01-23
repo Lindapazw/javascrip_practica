@@ -12,6 +12,9 @@ const resultado = tecnologias.includes("react")
 // si un elemento del array es mayor a 15
 const resultado2 = numero.some(numero => numero > 15 )
 
+// find - devuelve el primer elemento que cumple la condicion
+const resultado3 = numero.find(numero => numero > 15)
 
 console.log(resultado)
 console.log(resultado2)
+console.log(resultado3)
