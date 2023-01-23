@@ -21,8 +21,12 @@ const resultado4 = numero.every(numero => numero > 15)
 // reduce 
 const resultado5 = numero.reduce((total, numero) => numero + total, 0)
 
+// filter - crear un nuevo array en base a una condicion 
+const resultado6 = tecnologias.filter(tech => tech === 'java')
+
 console.log(resultado)
 console.log(resultado2)
 console.log(resultado3)
 console.log(resultado4)
 console.log(resultado5)
+console.log(resultado6)
